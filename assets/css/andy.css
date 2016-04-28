@@ -1,0 +1,55 @@
+
+/*Horizontal alignment*/
+
+.horizontal-row-align{
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+	.horizontal-row-align > .margin{
+		margin: 0 4% 0 5%;
+		overflow: hidden;
+	}
+
+/*Général*/
+
+.title-center{
+  text-align: center;
+}
+
+.technology > a{
+	border: none;
+}
+
+/*Widget page community*/
+
+.rowmargin {
+    margin-bottom:50px;
+}
+
+.widget-disposition{
+	position:relative;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px
+}
+
+/*Font awesome border*/
+
+.fa-border{
+  border: hidden;
+}
+
+
+
+@media (min-width: 1200px) {
+  .widget-disposition{
+    float: left;
+  }
+
+  .widget-disposition{
+    width: 33.33333333%;
+  }
+}
