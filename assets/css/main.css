@@ -1946,7 +1946,9 @@
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
+
 /*Andréa*/
+
 div > p{
 	text-align: justify;
 }
@@ -2075,6 +2077,11 @@ div > p{
 				display: block;
 				width: 100%;
 			}
+
+		img.hublin{
+			height: 25em;
+		}
+
 
 /* Icon */
 
@@ -2512,6 +2519,9 @@ div > p{
 			margin-top: -1px;
 		}
 
+		.test{
+			max-width: 100%;
+		}
 /* Banner */
 
 	#banner {

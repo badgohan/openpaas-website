@@ -46,6 +46,11 @@
 	color:#428bca
 }
 
+/* Hublin-section */
+
+	.hublin-section{
+		margin-bottom: 3em;
+	}
 @media (min-width: 1200px) {
   .widget-disposition{
     float: left;
