@@ -36,13 +36,15 @@
   padding-left:15px
 }
 
-/*Font awesome border*/
+/*Font awesome */
 
 .fa-border{
   border: hidden;
 }
 
-
+.text-primary {
+	color:#428bca
+}
 
 @media (min-width: 1200px) {
   .widget-disposition{
@@ -52,4 +54,15 @@
   .widget-disposition{
     width: 33.33333333%;
   }
+}
+
+@media (min-width:992px) {
+	.col-md-4{
+		float:left
+	}
+
+	.col-md-4 {
+		width:33.33333333%
+	}
+
 }

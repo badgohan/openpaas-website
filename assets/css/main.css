@@ -2382,10 +2382,6 @@ div > p{
 					height: 5em;
 				}
 
-					img.small-image{
-						height: 9.5em;
-					}
-
 	#nav {
 		cursor: default;
 		background-color: #333;
@@ -2668,7 +2664,20 @@ div > p{
 			text-align: center;
 			font-size: 0.9em;
 		}
+/* Very wide */
 
+	@media screen and (max-width: 1920px) {
+
+		/* image Font-Awesome */
+
+			div.box.highlight > i.none{
+				display: none;
+			}
+
+			img.small-image{
+				height: 9em;
+			}
+	}
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2684,6 +2693,17 @@ div > p{
 
 			#banner {
 				height: 24em;
+			}
+	 /* Principal image*/
+
+	 		img.small-image{
+		 		height: 9.5em;
+	 		}
+
+		/* image Font-Awesome */
+
+			div.box.highlight i.index{
+				display: none;
 			}
 
 	}
@@ -2751,6 +2771,17 @@ div > p{
 				#footer .container {
 					margin-bottom: 1em;
 				}
+		/* Principal image*/
+
+ 		 	img.small-image{
+ 			 	height: 9.5em;
+ 		 	}
+
+		/* image Font-Awesome */
+
+			div.box.highlight i.index{
+				display: none;
+			}
 
 	}
 
@@ -2782,6 +2813,13 @@ div > p{
 			div.latest-blog{
 				padding: 0 0 0 24%;
 			}
+
+		/* image Font-Awesome */
+
+			div.box.highlight i.index{
+				display: none;
+			}
+
 	}
 
 /* Narrower */
@@ -2832,7 +2870,14 @@ div > p{
 				padding-left: 7em;
 			}
 
-				.box.highlight i {
+				.box.highlight i.index {
+					position: absolute;
+					margin: 0;
+					left: 0;
+					top: 0.25em;
+				}
+
+				.box.highlight img.small-image{
 					position: absolute;
 					margin: 0;
 					left: 0;
@@ -3091,6 +3136,13 @@ div > p{
 				div.latest-blog{
 					padding: 0 0 0 24%;
 				}
+
+			/* image Font-Awesome */
+
+				img.small-image{
+					display: none;
+				}
+
 	}
 
 /* Mobile */
@@ -3178,6 +3230,13 @@ div > p{
 				div.latest-blog{
 					padding: 0 0 0 16%;
 				}
+
+			/* image Font-Awesome */
+
+				img.small-image{
+					display: none;
+				}
+
 
 	}
 
@@ -3275,6 +3334,12 @@ div > p{
 
 			iframe{
 				width: 278px;
+			}
+
+		/* image Font-Awesome */
+
+			img.small-image{
+				display: none;
 			}
 
 		/* CTA */
