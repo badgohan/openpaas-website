@@ -23,6 +23,17 @@
 	border: none;
 }
 
+.blue{
+	color: rgb(72, 143, 204);
+}
+
+.yellow{
+	color: rgb(254, 193, 17);
+}
+
+.justify-content{
+	text-align: justify;
+}
 /*Widget page community*/
 
 .rowmargin {
