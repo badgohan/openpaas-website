@@ -2603,15 +2603,14 @@ div > p{
 				.wrapper.style3 .button:hover {
 					color: #37c0fb !important;
 				}
-			/*Andréa*/
-
-		.widget-height{
-			min-height: 950px;
-		}
-
-		.white-wrapper{
+		.wrapper.white{
 			background-color: white;
 		}
+
+		.widget-height{
+			min-height: 900px;
+		}
+
 /* CTA */
 
 	#cta {
@@ -2636,7 +2635,7 @@ div > p{
 		padding: 4em 0 8em 0;
 	}
 
-	/*Andréa*/
+		/* Widgets section */
 		#footer.clear{
 			clear: both;
 		}
@@ -2687,6 +2686,10 @@ div > p{
 			img.small-image{
 				height: 9em;
 			}
+
+			.flex.mobile{
+				display: none;
+			}
 	}
 /* Wide */
 
@@ -2716,6 +2719,9 @@ div > p{
 				display: none;
 			}
 
+			.flex.mobile{
+				display: none;
+			}
 	}
 
 /* Normal */
@@ -2793,6 +2799,9 @@ div > p{
 				display: none;
 			}
 
+			.flex.mobile{
+				display: none;
+			}
 	}
 
 /* Narrow */
@@ -2806,19 +2815,13 @@ div > p{
 				line-height: 1.5em;
 			}
 
-		/*Icons contribution*/
+		/* Icons contribution */
 
 			.fa-5x{
 				font-size: 4em;
 			}
 
-		/*Technology*/
-
-			.technology{
-				display: none;
-			}
-
-		/*Twitter widget*/
+		/* Twitter widget */
 
 			div.latest-blog{
 				padding: 0 0 0 24%;
@@ -2830,6 +2833,9 @@ div > p{
 				display: none;
 			}
 
+			.flex.mobile{
+				display: none;
+			}
 	}
 
 /* Narrower */
@@ -3135,12 +3141,6 @@ div > p{
 					font-size: 2em;
 				}
 
-			/*Technology*/
-
-				.technology{
-					display: none;
-				}
-
 			/*Twitter widget*/
 
 				div.latest-blog{
@@ -3153,6 +3153,9 @@ div > p{
 					display: none;
 				}
 
+			.flex.mobile{
+				display: none;
+			}
 	}
 
 /* Mobile */
@@ -3219,19 +3222,33 @@ div > p{
 				padding: 2em 0 1px 0;
 			}
 
-			/*Icons contribution*/
+			.wrapper.white.grey{
+				background-color: #fff;
+				background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
+				background-position: top left,						bottom left,					top left;
+				background-size: 100% 6em,						100% 6em,						auto;
+				background-repeat: no-repeat,						no-repeat,						repeat;
+			}
+
+			/* Icons contribution */
 
 				.fa-5x{
 					font-size: 2em;
 				}
 
-			/*Technology*/
+			/* Technology */
 
 				.technology{
 					display: none;
 				}
 
-			/*Twitter widget*/
+
+
+				.flex{
+					display: none
+				}
+
+			/* Twitter widget */
 
 				.title-center{
 					padding: 5%;
@@ -3318,19 +3335,30 @@ div > p{
 				padding: 2em 20px 1px 20px;
 			}
 
+			.wrapper.white.grey{
+				background-color: #fff;
+				background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
+				background-position: top left,						bottom left,					top left;
+				background-size: 100% 6em,						100% 6em,						auto;
+				background-repeat: no-repeat,						no-repeat,						repeat;
+			}
 		/*Icons contribution*/
 
 			.fa-5x{
 				font-size: 2em;
 			}
 
-		/*Technology*/
+		/* Technolog y*/
 
 			.technology{
 				display: none;
 			}
 
-		/*Twitter widget*/
+			.flex{
+				display: none;
+			}
+
+		/* Twitter widget */
 
 		  .title-center{
 			  padding: 5%;
@@ -3340,7 +3368,7 @@ div > p{
 				padding: 10% 0 0 10%;
 			}
 
-		/*Videos*/
+		/* Videos */
 
 			iframe{
 				width: 278px;

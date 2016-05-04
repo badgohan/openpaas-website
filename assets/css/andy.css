@@ -34,7 +34,16 @@
 .justify-content{
 	text-align: justify;
 }
-/*Widget page community*/
+
+.code-climate{
+	text-align: right;
+	height: 1em;
+}
+
+div.code-climate > a{
+	border-bottom: none;
+}
+/* Widgets */
 
 .rowmargin {
     margin-bottom:50px;
@@ -47,6 +56,16 @@
   padding-left:15px
 }
 
+iframe.star-us{
+	height: 20px;
+	padding-left: 1%;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
 /*Font awesome */
 
 .fa-border{
