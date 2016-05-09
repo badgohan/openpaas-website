@@ -2611,6 +2611,12 @@ div > p{
 			min-height: 900px;
 		}
 
+/* Hublin-section */
+
+	.hublin-section{
+		margin-bottom: 3em;
+	}
+
 /* CTA */
 
 	#cta {
@@ -2802,6 +2808,17 @@ div > p{
 			.flex.mobile{
 				display: none;
 			}
+
+		/* hublin-section */
+
+			img.android{
+				height: 25em;
+				padding-right: 2em;
+			}
+
+			img.computer{
+				height: 25em;
+			}
 	}
 
 /* Narrow */
@@ -2836,6 +2853,16 @@ div > p{
 			.flex.mobile{
 				display: none;
 			}
+
+		/* hublin-section */
+			img.android{
+				height: 35em;
+			}
+
+			img.computer{
+				height: 25em;
+			}
+
 	}
 
 /* Narrower */
@@ -3156,6 +3183,21 @@ div > p{
 			.flex.mobile{
 				display: none;
 			}
+
+
+			/* hublin-section */
+
+				.hublin-section{
+					flex-direction: column;
+				}
+
+				img.android{
+					height: 35em;
+				}
+
+				img.computer{
+					height: 20em;
+				}
 	}
 
 /* Mobile */
@@ -3242,8 +3284,6 @@ div > p{
 					display: none;
 				}
 
-
-
 				.flex{
 					display: none
 				}
@@ -3264,6 +3304,18 @@ div > p{
 					display: none;
 				}
 
+			/* hublin-section */
+
+				.hublin-section{
+					flex-direction: column;
+				}
+
+				img.android{
+					height: 35em;
+				}
+				img.computer{
+					height: 22em;
+				}
 
 	}
 
@@ -3342,6 +3394,7 @@ div > p{
 				background-size: 100% 6em,						100% 6em,						auto;
 				background-repeat: no-repeat,						no-repeat,						repeat;
 			}
+
 		/*Icons contribution*/
 
 			.fa-5x{
@@ -3374,11 +3427,22 @@ div > p{
 				width: 278px;
 			}
 
-		/* image Font-Awesome */
+		/* Image Font-Awesome */
 
 			img.small-image{
 				display: none;
 			}
+
+		/* hublin-section */
+
+			.hublin-section{
+				flex-direction: column;
+			}
+
+			img.computer{
+				height: 11em;
+			}
+
 
 		/* CTA */
 
